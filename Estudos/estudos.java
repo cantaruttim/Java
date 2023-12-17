@@ -5,6 +5,7 @@ import java.util.Locale;
 class Main {
   public static void main(String[] args) {
 
+    // Entrada de Dados
     Locale.setDefault(Locale.US);
     Scanner sc = new Scanner(System.in);
     int x;
