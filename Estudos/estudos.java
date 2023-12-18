@@ -19,5 +19,7 @@ class Main {
 
     sc.close();
 
+    /*para consumir linhas pendentes basta adicionar um sc.nextLine() extra */
+
   }
 }
