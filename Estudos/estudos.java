@@ -5,7 +5,6 @@ import java.util.Locale;
 class Main {
   public static void main(String[] args) {
 
-    // Entrada de Dados
     Locale.setDefault(Locale.US);
     Scanner sc = new Scanner(System.in);
     int x;
@@ -18,8 +17,6 @@ class Main {
     System.out.println("para y você digitou: " + y);
 
     sc.close();
-
-    /*para consumir linhas pendentes basta adicionar um sc.nextLine() extra */
 
   }
 }
