@@ -19,7 +19,7 @@ class Main {
     sc.close();
 
  
-    ## operadores bit-a-bit 
+    // operadores bit-a-bit 
 
     int x = 5;
     int y = 10;
