@@ -1,0 +1,38 @@
+package Vetores.exercicios.src.application;
+import java.util.Locale;
+import java.util.Scanner;
+
+public class somaVect {
+    public static void main(String[] args) {
+    Locale.setDefault(Locale.US);
+    Scanner sc = new Scanner(System.in);
+
+
+    System.out.println("Enter the lenght of this vector");
+    int n = sc.nextInt();
+    double[] vect = new double[n]; 
+
+    for (int i=0; i<n; i++) {
+    System.out.println("Enter the vect[i] element");
+      vect[i] = sc.nextDouble();
+    }
+
+    
+    System.out.println();
+    System.out.println("Vectors elements");
+
+    double soma = 0.0;
+    for (int i=0; i<n; i++) {
+       soma += vect[i];
+    }
+
+    double avg = soma / n;
+
+    System.out.println("SOMA: " + String.format("%.2f", soma));
+    System.out.println("AVERAGE: " + String.format("%.2f", avg));
+
+    
+    sc.close();
+
+    }
+}
